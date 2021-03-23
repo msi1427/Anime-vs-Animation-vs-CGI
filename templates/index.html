@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Classify</title>
+{% endblock %}
+
+{% block body %}
+<div class="container p-2 p-md-5">
+  <h1 style="text-align: center"> Fill up the informations </h1>
+  <form action="/" method="POST" class="uploader" enctype="multipart/form-data">
+    <div class="pt-3 form-group file-upload">
+      <div class="image-upload-wrap">
+        <input class="file-upload-input" type='file' id="image" name="image" onchange="readURL(this);" accept="image/*" />
+        <div class="drag-text">
+          <h3 class="text-dark lead text-center py-3">Drag and drop an image to classify or click here</h3>
+        </div>
+      </div>
+      <div class="file-upload-content pt-4">
+        <img class="file-upload-image" src="#" alt="your image" />
+        <div class="image-title-wrap pt-2">
+          <button type="button" onclick="removeUpload()" class="btn btn-danger"><i class="fas fa-trash"></i> <span
+              class="image-title">Uploaded Image</span></button>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-outline-dark btn-lg"><i class="fas fa-check"></i> Classify</button>
+</div>
+{% endblock %}

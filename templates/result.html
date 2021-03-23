@@ -1,0 +1,22 @@
+{% extends 'base.html' %} {% block head %}
+<title>Classifier</title>
+{% endblock %} 
+
+{% block body %}
+<div class="content">
+  
+    <h2 class="text-dark">Classifier Results</h2>
+    <br/>
+    <br/>
+    <h4 class="text-dark"> Given Image </h4>
+    <img
+          src="{{url_for('static', filename=image_url)}}"
+          width="500"
+          height="auto"
+          class="center"
+        />
+    <br/>
+    <h4 class="text-dark"> Class : {{ label }}</h4>
+
+
+{% endblock %}
