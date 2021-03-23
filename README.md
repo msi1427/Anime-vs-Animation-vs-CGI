@@ -26,9 +26,9 @@ An image classification project from data collection, machine learning to deploy
 
 <img src = "result/cgi_result.PNG" width="400" height="300">
 
-## Web Server Development
+## Web Development
 
-Built a basic web frontend and backend with Flask, HTML, CSS and others, integrated the trained model and prepared everything for deployment.
+Built a basic web frontend and backend with Flask, HTML, CSS and others, integrated the trained model and prepared everything for deployment. <br/>
 
 ### Build from sources
 
@@ -95,3 +95,8 @@ Clicking on Classify Image will take back to the landing page. <br/>
 
 ## Deployment
 
+Deployed the Web app to Heroku. 
+
+## Resources
+
+fastai course: https://course.fast.ai/ <br/>Flask Tutorial: https://www.youtube.com/watch?v=Z1RJmh_OqeA <br/>
