@@ -26,3 +26,72 @@ An image classification project from data collection, machine learning to deploy
 
 <img src = "result/cgi_result.PNG" width="400" height="300">
 
+## Web Server Development
+
+Built a basic web frontend and backend with Flask, HTML, CSS and others, integrated the trained model and prepared everything for deployment.
+
+### Build from sources
+
+1. Clone the Git Repo
+
+  ```
+  $ git clone https://github.com/msi1427/https://github.com/msi1427/Anime-vs-Animation-vs-CGI.git
+  $ cd Anime-vs-Animation-vs-CGI
+  ```
+
+2. Initialize and activate a virtualenv
+
+  ```
+  $ virtualenv --no-site-packages env
+  $ source env/bin/activate
+  
+  # For Windows
+  $ source .\env\Scripts\activate.bat
+  ```
+
+3. Install the dependencies
+
+  ```
+  $ pip install -r requirements.txt
+  ```
+
+4. Run the development server
+
+  ```
+  $ python app.py
+  ```
+
+6. Navigate to [http://localhost:5000](http://localhost:5000)
+
+<br/>
+
+### Features
+
+- Given an image, it can classify between Anime, Animation and CGI characters <br/>
+
+## Walkthrough 
+
+### Video Walkthrough 
+
+YouTube Link: [link]
+
+### Descriptive Walkthrough
+
+#### Landing Page
+
+After building from sources, navigate to [http://localhost:5000](http://localhost:5000/)
+
+There we land here
+
+<img src = "snaps/landing_page.PNG" width="800" height="400">
+
+#### Results Page
+
+When we add an image and mark it to classify. We get to this page.
+
+<img src = "snaps/result_page.PNG" width="800" height="400">
+
+Clicking on Classify Image will take back to the landing page. <br/>
+
+## Deployment
+
