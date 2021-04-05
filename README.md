@@ -1,6 +1,6 @@
-# Anime vs Animation vs CGI [Work in Progress]
+# Anime vs Animation vs CGI
 
-An image classification project from data collection, machine learning to deployment. Defining the labels. <br/>**anime:** anime characters from an original anime <br/>**animation:** animation characters from an animation movie or series <br/>**cgi:** CGI characters from a real movie [no animation] <br/>
+An image classification project to classify among anime, animation and cgi characters from data collection, machine learning to deployment. Defining the labels. <br/>**anime:** anime characters from an original anime <br/>**animation:** animation characters from an animation movie or series <br/>**cgi:** CGI characters from a real movie [no animation] <br/>
 
 ## Dataset construction and processing
 
@@ -67,13 +67,13 @@ Built a basic web frontend and backend with Flask, HTML, CSS and others, integra
 
 ### Features
 
-- Given an image, it can classify between Anime, Animation and CGI characters <br/>
+- Given an image, it can classify among Anime, Animation and CGI characters <br/>
 
 ## Walkthrough 
 
 ### Video Walkthrough 
 
-YouTube Link: [link]
+YouTube Link: https://youtu.be/aK4_xdcn2Yg
 
 ### Descriptive Walkthrough
 
