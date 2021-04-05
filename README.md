@@ -95,7 +95,7 @@ Clicking on Classify Image will take back to the landing page. <br/>
 
 ## Deployment
 
-Deployed the Web app to Heroku. 
+Deployed the Web app to Heroku. <br/>Important thing I noticed here is that numpy, pandas and scipy library versions doesn't match with the Heroku version so I changed those to previous versions and it worked. However, I could not deploy my model to Heroku because the whole thing was nearly 1 GB and Heroku does not approve more than 500MB for free.
 
 ## Resources
 
